@@ -1,0 +1,33 @@
+@import "../variables";
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 111px;
+}
+
+.main-nav {
+
+    &--item {
+        color: #454546;
+        text-decoration: none;
+        padding-bottom: 40px;
+
+        &:nth-child(2) {
+            margin-left: 36px;
+            margin-right: 36px;
+        }
+
+        &:hover {
+            color: $main-white;
+            border-bottom: 5px solid $main-clear-blue;
+        }
+
+        &__active {
+            color: $main-white;
+            border-bottom: 5px solid $main-clear-blue;
+        }
+    }
+}
