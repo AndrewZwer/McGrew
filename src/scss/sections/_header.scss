@@ -1,12 +1,21 @@
 @import "../variables";
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1140px;
-    height: 111px;
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1140px;
+        height: 111px;
+    }
 }
+
+    
 
 .main-nav {
 
@@ -23,11 +32,13 @@ header .container {
         &:hover {
             color: $main-white;
             border-bottom: 5px solid $main-clear-blue;
+            text-shadow: .5px .87px 1px #000000;
         }
 
         &__active {
             color: $main-white;
             border-bottom: 5px solid $main-clear-blue;
+            text-shadow: .5px .87px 1px #000000;
         }
     }
 }

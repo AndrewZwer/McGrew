@@ -1,0 +1,50 @@
+@import "../variables";
+@import "../mixins";
+
+.invitation {
+    padding-top: 111px;
+
+    .container {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 59px;
+        border-bottom: 3px solid #CCCCCC;
+    }
+
+    &--description {
+        padding-left: 28px;
+        padding-right: 82px;
+        background-color: #367AB7;
+    }
+
+    .section-heading {
+        padding-top: 35px;
+        padding-left: 2px;
+        letter-spacing: 1.33px;
+
+        &--underlined {
+            padding-bottom: 11px;
+        }
+    }
+
+    .section-text {
+        padding-top: 30px;
+        padding-bottom: 59px;
+        width: 481px;
+    }
+
+    .section-button {
+        @include button($main-clear-blue, #008EA5, 16px 25px 19px 25px);
+    }
+}
+
+.description--pre-word {
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 37px;
+
+    &__white {
+        color: #ffffff;
+    }
+}

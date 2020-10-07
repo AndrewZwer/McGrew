@@ -1,0 +1,31 @@
+@import "../variables";
+@import "../mixins";
+
+.top-section {
+    height: 660px;
+    background-image: url(../img/top-img@2x.png);
+    background-position: 0 34%;
+
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+    }
+
+    .section-heading {
+        padding-top: 245px;
+        letter-spacing: 1.4px;
+        margin-left: -2px;
+    }
+
+    .section-text {
+        width: 460px;
+        padding-top: 37px;
+        padding-bottom: 60px;
+    }
+
+    .section-button {
+        @include button($main-orange, $dirt-orange, 17px 65px 19px 63px);
+
+        margin-top: 20px;
+    }
+}

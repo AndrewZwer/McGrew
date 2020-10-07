@@ -1,0 +1,27 @@
+@import "../variables";
+@import "../mixins";
+
+.call-to-action {
+    text-align: center;
+
+    &--heading {
+        font-size: 24px;
+        font-weight: 600;
+        color: #777777;
+        letter-spacing: .65px;
+        padding-left: 4px;
+        padding-top: 68px;
+    }
+
+    .section-text {
+        color: #444444;
+        padding-top: 32px;
+        padding-bottom: 56px;
+        width: 725px;
+        margin: 0 auto;
+    }
+
+    .section-button {
+        @include button($main-orange, $dirt-orange, 17px 80px 19px 80px);
+    }
+}

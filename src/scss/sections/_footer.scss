@@ -1,0 +1,69 @@
+@import "../_variables.scss";
+
+.footer {
+    text-align: center;
+
+    &-menu {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        width: 453px;
+        margin: 0 auto;
+        padding-top: 45px;
+
+        &--item {
+            font-weight: 600;
+            color: #999999;
+            text-decoration: none;
+        }
+    }
+
+    &--social-icons {
+        padding-top: 42px;
+
+        .fa-linkedin-in {
+            font-size: 22px;
+            color: #000;
+        }
+
+        .fa-skype {
+            color: #8D8D8D;
+            font-size: 20px;
+        }
+
+    }
+
+    &--contacts {
+        padding-top: 44px;
+
+        &--address {
+            font-size: 14px;
+            letter-spacing: .7px;
+            color: #AAAAAA;
+        }
+
+        &--some-number {
+            padding-top: 19px;
+            padding-bottom: 17px;
+            letter-spacing: -.3px;
+            color: #AAAAAA;
+        }
+
+        &--email {
+            color: $main-orange;
+            letter-spacing: 1.1px;
+            text-decoration: none;
+        }
+    }
+
+    &--copyright {
+        border-top: 1px solid #EEEEEE;
+        width: 948px;
+        padding-top: 30px;
+        margin: 51px auto;
+        color: #AAAAAA;
+        font-size: 12px;
+        letter-spacing: .5px;
+        text-align: center;
+    }
+}

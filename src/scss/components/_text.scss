@@ -1,0 +1,18 @@
+@import "../variables";
+
+.section-text {
+    font-size: 18px;
+    line-height: 30px;
+
+    &__white {
+        color: $main-white;
+    }
+
+    &__shadowed {
+        text-shadow: .5px .87px 1px #000000;
+    }
+
+    &__invisible {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../variables";
+
+.generations {
+    background-color: $main-clear-blue;
+    text-align: center;
+
+    .section-heading {
+        padding-top: 95px;
+        letter-spacing: 1.3px;
+    }
+
+    .section-text {
+        padding-top: 33px;
+    }
+
+    &--img {
+        padding-top: 73px;
+    }
+}
